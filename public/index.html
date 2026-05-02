@@ -2751,9 +2751,9 @@
 					if(currentLevel !== 1) return;
 					
 					playbackTimeout = setTimeout(() => {
-						 speak(data.guide_phoneme, 0.3, () => {
+						 speak(data.guide_phoneme, 0.85, () => {
 							 setTimeout(() => {
-								 speak(data.guide_phoneme, 0.3, () => {
+								 speak(data.guide_phoneme, 0.85, () => {
 									 playbackTimeout = setTimeout(() => {
 										speak("Em nghe và nhắc lại các ví dụ nhé:", 0.9, () => {
 											playExampleLoop(0);
