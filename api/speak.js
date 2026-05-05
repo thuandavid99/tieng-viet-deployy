@@ -7,6 +7,9 @@ export default async function handler(req, res) {
     }
 
     try {
+        // Thêm khoảng lặng đầu để FPT AI không cắt mất âm đầu
+        const paddedText = '. ' + text;
+
         // Bước 1: Gọi FPT AI -> nhận URL mp3
         const fptRes = await fetch('https://api.fpt.ai/hmi/tts/v5', {
             method: 'POST',
@@ -15,7 +18,7 @@ export default async function handler(req, res) {
                 'speed': '-1',
                 'voice': voice
             },
-            body: text
+            body: paddedText
         });
 
         const fptData = await fptRes.json();
