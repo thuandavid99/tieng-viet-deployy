@@ -778,6 +778,7 @@
             icon: "🧒" 
         }
     ] 
+	}
 },
 		    { 
 		        id: 28, char: "Y, QU", sub: "Y y, Qu qu", word: "dã quỳ", svgKey: null, icon: "🌼", 
