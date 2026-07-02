@@ -436,7 +436,24 @@
 				padding: 0 30px;
 				color: #000000; /* Black text */
 			}
+			/* Thu nhỏ font ở màn hình Mục lục (TOC) cho các cụm vần dài */
+			.slide-char.long-text {
+			    font-size: 90px;
+			    line-height: 1.1;
+			    word-break: break-word;
+			    padding: 0 10px;
+			}
 			
+			/* Thu nhỏ font ở màn hình Chi tiết bài học (Lesson) */
+			.big-char.long-text {
+			    font-size: 110px;
+			}
+			
+			/* Tối ưu thêm cho màn hình nhỏ (Mobile) */
+			@media (max-width: 480px) {
+			    .slide-char.long-text { font-size: 70px; }
+			    .big-char.long-text { font-size: 80px; }
+			}
 			.slide-hint { 
 				position: absolute; 
 				bottom: 40px; 
