@@ -753,8 +753,32 @@
 		        guide_intro: "Phát âm rõ ràng nhé.",
 		        guide_phoneme: "Vờ, Xờ...", 
 		        examples: [{ word: "vở vẽ", icon: "🎨" }, { word: "vỉa hè", icon: "🛣️" }, { word: "xe lu", icon: "🚜" }],
-		        situation: { title: "Hà vẽ tranh", background_image: null, dialogs: [{ role: "teacher", text: "Hà đang vẽ gì thế?", icon: "👩‍🏫" }, { role: "student", text: "Em vẽ xe đạp ạ!", icon: "👧" }] }
-		    },
+		        situation: {
+    title: "Khám phá Thành phố và Nông thôn", 
+    background_image: null, 
+    dialogs: [
+        { 
+            role: "narrator", 
+            text: "Chào bé! Hôm nay chúng mình cùng tưởng tượng nhé. Bé hãy nhắm mắt lại và lắng nghe chú Kiến kể về hai nơi này.", 
+            icon: "🐜" 
+        },
+        { 
+            role: "narrator", 
+            text: "Ở thành phố, bé sẽ nghe thấy tiếng còi xe inh ỏi, tiếng người nói chuyện ồn ào và những tòa nhà cao tầng chọc trời. Còn ở nông thôn, bé sẽ nghe tiếng gà gáy sáng, tiếng gió rì rào qua những cánh đồng lúa và không khí thì rất trong lành.", 
+            icon: "🌾" 
+        },
+        { 
+            role: "teacher", 
+            text: "Bé thử đoán xem: Nơi nào có nhiều tiếng còi xe, và nơi nào có nhiều tiếng chim hót nhỉ?", 
+            icon: "👩‍🏫" 
+        },
+        { 
+            role: "student", 
+            text: "Dạ, thành phố thì có nhiều tiếng còi xe, còn nông thôn thì có nhiều tiếng chim hót ạ!", 
+            icon: "🧒" 
+        }
+    ] 
+},
 		    { 
 		        id: 28, char: "Y, QU", sub: "Y y, Qu qu", word: "dã quỳ", svgKey: null, icon: "🌼", 
 		        sentence: "Thời gian quý hơn vàng bạc.", 
