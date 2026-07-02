@@ -1,0 +1,139 @@
+	<!DOCTYPE html>
+	<html lang="vi">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Ứng dụng học Tiếng Việt lớp 1 - Kết Nối Tri Thức với Cuộc Sống">
+		<meta name="keywords" content="tiếng việt lớp 1, học chữ cái, kết nối tri thức, FPT Schools">
+		<meta name="author" content="David - FPT Schools">
+		<title>Tiếng Việt 1 - Kết Nối Tri Thức</title>
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="images/chukiendonghanh.png">
+		
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+
+		<!-- MASCOT ANT (IMAGE) -->
+		<!-- 
+			Thay đổi src thành đường dẫn ảnh của bạn:
+			- Online: src="https://your-domain.com/assets/images/chukiendonghanh.png"
+			- Local: src="assets/images/chukiendonghanh.png"
+			- Nếu dùng MIT App Inventor: src="chukiendonghanh.png"
+		-->
+		<img id="mascot-ant" 
+			 src="images/chukiendonghanh.png" 
+			 alt="Chú Kiến Đồng Hành"
+			 onerror="this.style.display='none'">
+
+		<!-- SCREEN 1: START MERGED -->
+		<div id="screen-start-merged" onclick="initAppAndGo()">
+			<div class="app-title-big">TIẾNG VIỆT 1</div>
+			<div class="app-subtitle">KẾT NỐI TRI THỨC VỚI CUỘC SỐNG</div>
+			
+			<div class="hand-icon-container">
+				<span class="hand-icon">👆</span>
+			</div>
+			
+			<p class="instruction-text">CHẠM VÀO MÀN HÌNH<br>ĐỂ GẶP CHÚ KIẾN</p>
+		</div>
+
+		<!-- SCREEN 2: BOOKS SELECTION -->
+		<div id="screen-books">
+			<div class="btn-back-corner" onclick="playTingSound(); goBackToStart()">🔙</div>
+			
+			<div class="book-vol vol-1" onclick="playTingSound(); selectVolume(1)">
+				<div class="vol-label">
+					<span class="vol-text">TẬP</span>
+					<span class="vol-num">1</span>
+				</div>
+				<div class="vol-icon">🅰️</div>
+			</div>
+			
+			<div class="book-vol vol-2" onclick="playTingSound(); selectVolume(2)">
+				<div class="vol-label">
+					<span class="vol-text">TẬP</span>
+					<span class="vol-num">2</span>
+				</div>
+				<div class="vol-icon">📖</div>
+			</div>
+		</div>
+
+		<!-- SCREEN 3: TABLE OF CONTENTS -->
+		<div id="screen-toc">
+			<div class="btn-back-corner" onclick="playTingSound(); goBackToBooks()">🏠</div>
+			<div class="carousel-container" id="toc-slider"></div>
+			<div style="text-align: center; padding: 10px; font-size: 12px; color: #aaa;">
+				Lướt qua phải để xem bài tiếp theo ▶️
+			</div>
+		</div>
+
+		<!-- SCREEN 4: LESSON DETAIL -->
+		<div id="screen-lesson">
+			<div class="btn-back-corner" onclick="playTingSound(); goBackToToc()">🔙</div>
+			
+			<div class="lesson-frame" id="lesson-frame-content">
+				<div class="lesson-number-badge" id="lesson-number-badge">BÀI 1</div>
+				<div class="sub-char" id="display-sub">A a</div>
+				<div class="big-char" id="display-char" onclick="playTingSound(); replay()">A</div>
+				
+				<div class="illustration" id="display-illu" onclick="playTingSound(); playWord()">
+					<div id="svg-container" class="svg-icon"></div>
+					<span class="img-text" id="word-el">ca hát</span>
+				</div>
+				
+				<div class="sentence-box" id="sentence-el" onclick="playTingSound(); playSentenceOnly()">
+					Nam và Hà ca hát.
+				</div>
+			</div>
+
+			<div class="swipe-up-hint" id="hint-swipe">
+				<span>☝️</span>
+				<span class="swipe-up-hint-text">Vuốt lên để học thêm</span>
+			</div>
+
+			<!-- EXTRA PANEL -->
+			<div id="extra-panel">
+				<div class="close-handle" onclick="playTingSound(); closeLevel(1)"></div>
+				<div class="extra-header">MỞ RỘNG BÀI HỌC</div>
+				
+				<div class="guide-box" onclick="playTingSound(); playGuide()">
+					<div class="guide-icon">🗣️</div>
+					<div id="guide-text">Mở rộng miệng...</div>
+				</div>
+				
+				<div class="examples-section-title">Ví dụ khác:</div>
+				<div class="more-examples-grid" id="more-examples-container"></div>
+				
+				<div class="hint-next-level">
+					🔼 Vuốt lên tiếp để xem TÌNH HUỐNG
+				</div>
+			</div>
+
+			<!-- SITUATION PANEL -->
+			<div id="situation-panel">
+				<div class="close-handle" onclick="playTingSound(); closeLevel(2)"></div>
+				<div class="sit-header" id="sit-title">TÌNH HUỐNG</div>
+				
+				<div class="sit-stage" id="sit-stage-container">
+					<div class="sit-stage-bg" id="sit-stage-bg"></div>
+					<div class="bubble" id="sit-bubble">Chào con!</div>
+					<div class="actor actor-left" id="actor-1">👨</div>
+					<div class="actor actor-right" id="actor-2">👦</div>
+				</div>
+
+				<div class="sit-controls">
+					<button class="btn-sit" onclick="replaySituation()">▶️ Xem lại</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	
+	</body>
+	</html>
