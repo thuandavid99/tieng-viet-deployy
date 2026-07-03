@@ -682,9 +682,28 @@ const lessons = [
 		        guide_intro: "Phát âm vần kết thúc bằng n.",
 		        guide_phoneme: "An, Ăn, Ân", 
 		        examples: [{ word: "khăn rằn", icon: "🧣" }, { word: "quả mận", icon: "🍑" }],
-		        situation: { title: "Đôi bạn thân", background_image: null, dialogs: [{ role: "zebra", text: "Chào bạn!", icon: "🦓" }, { role: "giraffe", text: "Chào bạn thân!", icon: "🦒" }] }
+		       situation: {
+    title: "Xin lỗi bạn",
+    background_image: null,
+    dialogs: [
+        { role: "narrator", text: "Giờ ra chơi kết thúc, các bạn xếp hàng vào lớp.", icon: "🔔" },
+        { role: "narrator", text: "Một bạn vô ý giẫm vào chân Hà.", icon: "😳" },
+        { role: "student", text: "Xin lỗi bạn! Mình sơ ý giẫm vào chân bạn!", icon: "🧒" },
+        { role: "student", text: "Không sao đâu, cảm ơn bạn đã xin lỗi.", icon: "🙂" }
+    ]
+}
 		    },
-    { id: 32, char: "on, ôn, ơn", sub: "on ôn ơn", word: "con chồn", svgKey: null, icon: "🐾", sentence: "Sơn ca véo von: Mẹ ơi, con đã lớn khôn.", intro: "Bài 32. Vần on, ôn, ơn.", detail: "Học vần on, ôn, ơn.", guide_intro: "Phát âm rõ vần kết thúc bằng n.", guide_phoneme: "On, Ôn, Ơn", examples: [{ word: "nón lá", icon: "👒" }, { word: "con chồn", icon: "🦊" }, { word: "sơn ca", icon: "🐦" }], situation: null },
+    { id: 32, char: "on, ôn, ơn", sub: "on ôn ơn", word: "con chồn", svgKey: null, icon: "🐾", sentence: "Sơn ca véo von: Mẹ ơi, con đã lớn khôn.", intro: "Bài 32. Vần on, ôn, ơn.", detail: "Học vần on, ôn, ơn.", guide_intro: "Phát âm rõ vần kết thúc bằng n.", guide_phoneme: "On, Ôn, Ơn", examples: [{ word: "nón lá", icon: "👒" }, { word: "con chồn", icon: "🦊" }, { word: "sơn ca", icon: "🐦" }], situation: {
+    title: "Buổi sáng trong khu rừng",
+    background_image: null,
+    dialogs: [
+        { role: "teacher", text: "Trời vừa sáng, nắng chiếu khắp khu rừng. Con nghe xem có những con vật nào thức dậy nhé!", icon: "👩‍🏫" },
+        { role: "narrator", text: "Chồn, gấu, lợn, sóc, thỏ, khỉ cùng nhau thức dậy.", icon: "🌳" },
+        { role: "student", text: "Con nghe thấy sóc đang chuyền cành, thỏ đang gặm cỏ ạ!", icon: "🧒" },
+        { role: "teacher", text: "Giỏi lắm! Khu rừng buổi sáng thật nhộn nhịp phải không nào?", icon: "👩‍🏫" }
+    ]
+}
+	},
     { id: 33, char: "en, ên, in, un", sub: "en ên in un", word: "cún con", svgKey: null, icon: "🐶", sentence: "Cún con nhìn thấy dế mèn trên tàu lá.", intro: "Bài 33. Vần en, ên, in, un.", detail: "Học vần en, ên, in, un.", guide_intro: "Chú ý âm cuối n.", guide_phoneme: "En, Ên, In, Un", examples: [{ word: "ngọn nến", icon: "🕯️" }, { word: "đèn pin", icon: "🔦" }], situation: null },
     { id: 34, char: "am, ăm, âm", sub: "am ăm âm", word: "quả cam", svgKey: null, icon: "🍊", sentence: "Nhện ngắm nghía tấm lưới vừa làm xong.", intro: "Bài 34. Vần am, ăm, âm.", detail: "Học vần am, ăm, âm.", guide_intro: "Âm m ở cuối.", guide_phoneme: "Am, Ăm, Âm", examples: [{ word: "tăm tre", icon: "🥢" }, { word: "củ sâm", icon: "🥕" }], situation: null },
     { id: 35, char: "Ôn tập", sub: "Ôn tập", word: "bàn chân", svgKey: null, icon: "🦶", sentence: "Gà mẹ dẫn đàn con đi ăn.", intro: "Bài 35. Ôn tập.", detail: "Ôn lại các vần đã học.", guide_intro: "Cùng ôn tập.", guide_phoneme: "Tổng hợp", examples: [{ word: "bàn chân", icon: "🦶" }, { word: "lọ mực", icon: "✒️" }], situation: { title: "Gà mẹ và con", background_image: null, dialogs: [{ role: "hen", text: "Tục tục, lại đây ăn nào!", icon: "🐔" }, { role: "chick", text: "Chúng con tới đây!", icon: "🐣" }] } },
