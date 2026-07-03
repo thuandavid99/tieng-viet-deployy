@@ -149,5 +149,159 @@ const lessonsTap2 = [
             { type: "dictation", text: "Gió đi khắp nơi mang sự mát lành.", note: "Con hãy nghe và viết lại nhé." },
             { type: "narrate", role: "teacher", text: "Con đã học xong Bài 3 rồi! Con có thấy Gió cũng giống như một người bạn tốt không?" }
         ]
-        },
+        }    , {
+        id: 104,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 4,
+        title: "Bài đọc: Cây ổi",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🌳",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 4: Cây ổi. Cây ổi trong vườn nhà bà là cây ổi găng, quả nhỏ nhưng rất giòn và thơm." },
+            { type: "vocab", word: "ổi găng", meaning: "loại ổi quả nhỏ, cùi giòn" },
+            { type: "ask_aloud", prompt: "Cây ổi trong vườn nhà bà là loại ổi gì?", reveal: "Là cây ổi găng." },
+            { type: "dictation", text: "Cây ổi trong vườn nhà bà rất thơm.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 105,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 5,
+        title: "Bài đọc: Em yêu trường em",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🏫",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 5: Em yêu trường em. Trường học là ngôi nhà thứ hai của chúng mình đấy." },
+            { type: "narrate", role: "narrator", text: "Ở trường có cô giáo hiền, có bạn bè thân thiết. Chúng mình cùng học tập và vui chơi thật vui." },
+            { type: "ask_aloud", prompt: "Trường học được ví như gì?", reveal: "Trường học như ngôi nhà thứ hai." },
+            { type: "dictation", text: "Em yêu trường em, ngôi nhà thứ hai.", note: "Viết nắn nót nhé." }
+        ]
+    }, {
+        id: 106,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 6,
+        title: "Bài đọc: Chú sẻ nhỏ",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🐦",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 6: Chú sẻ nhỏ. Chú sẻ nhỏ bị thương ở cánh, may nhờ có bé giúp đỡ mà chú đã khỏi bệnh." },
+            { type: "vocab", word: "bị thương", meaning: "cơ thể bị đau do va chạm" },
+            { type: "ask_aloud", prompt: "Ai đã giúp chú sẻ nhỏ?", reveal: "Bạn nhỏ đã giúp chú sẻ nhỏ." },
+            { type: "dictation", text: "Bé chăm sóc chú sẻ nhỏ bị thương.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 107,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 7,
+        title: "Bài đọc: Giờ ra chơi",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "⚽",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 7: Giờ ra chơi. Tiếng trống vang lên, các bạn ùa ra sân trường chơi nhảy dây, đá bóng." },
+            { type: "ask_aloud", prompt: "Khi tiếng trống vang lên, các bạn làm gì?", reveal: "Các bạn ùa ra sân trường chơi nhảy dây, đá bóng." },
+            { type: "dictation", text: "Giờ ra chơi, các bạn chơi đá bóng.", note: "Con viết lại nhé." },
+            { type: "narrate", role: "teacher", text: "Bài học đã xong, con đã rất cố gắng!" }
+        ]
+        }    , {
+        id: 108,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 8,
+        title: "Bài đọc: Cậu bé thông minh",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🧠",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 8: Cậu bé thông minh. Nhờ sự nhanh trí, cậu bé đã giải được câu đố khó của nhà vua." },
+            { type: "ask_aloud", prompt: "Vì sao cậu bé được gọi là thông minh?", reveal: "Vì cậu bé đã giải được câu đố khó của nhà vua." },
+            { type: "dictation", text: "Cậu bé rất thông minh và nhanh trí.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 109,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 1,
+        title: "Bài đọc: Nụ hôn trên bàn tay",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "💋",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 9: Nụ hôn trên bàn tay. Mẹ hôn lên bàn tay Nam để cậu cảm thấy ấm áp mỗi khi đến lớp." },
+            { type: "ask_aloud", prompt: "Mẹ đặt nụ hôn vào đâu của Nam?", reveal: "Mẹ đặt nụ hôn vào bàn tay Nam." },
+            { type: "dictation", text: "Nụ hôn của mẹ thật ấm áp.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 110,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 2,
+        title: "Bài đọc: Làm anh",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "👦",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 10: Làm anh. Làm anh khó đấy, phải yêu thương và nhường nhịn em nhỏ." },
+            { type: "ask_aloud", prompt: "Khi em khóc, anh phải làm gì?", reveal: "Anh phải dỗ dành em." },
+            { type: "dictation", text: "Làm anh thật khó nhưng rất vui.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 111,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 3,
+        title: "Bài đọc: Cả nhà đi chơi núi",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "⛰️",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 11: Cả nhà đi chơi núi. Gia đình Nam cùng nhau đi leo núi, trên đường đi bố đã cõng Đức." },
+            { type: "ask_aloud", prompt: "Ai đã cõng Đức khi đường dốc?", reveal: "Bố đã cõng Đức." },
+            { type: "dictation", text: "Cả nhà cùng nhau đi chơi núi.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 112,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 4,
+        title: "Bài đọc: Quạt cho bà ngủ",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "👵",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 12: Quạt cho bà ngủ. Bà ốm, bạn nhỏ đã quạt cho bà ngủ ngon." },
+            { type: "ask_aloud", prompt: "Bạn nhỏ làm gì để bà ngủ ngon?", reveal: "Bạn nhỏ vẫy quạt thật đều cho bà." },
+            { type: "dictation", text: "Bé quạt cho bà ngủ ngon.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 113,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 5,
+        title: "Bài đọc: Bữa cơm gia đình",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🥘",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 13: Bữa cơm gia đình. Cả nhà quây quần bên nhau trong ngày Gia đình Việt Nam." },
+            { type: "ask_aloud", prompt: "Ngày gia đình Việt Nam là ngày nào?", reveal: "Ngày 28 tháng 6." },
+            { type: "dictation", text: "Bữa cơm gia đình thật tuyệt.", note: "Con viết lại nhé." }
+        ]
+        }
 ];
