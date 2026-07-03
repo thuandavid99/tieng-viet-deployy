@@ -303,5 +303,111 @@ const lessonsTap2 = [
             { type: "ask_aloud", prompt: "Ngày gia đình Việt Nam là ngày nào?", reveal: "Ngày 28 tháng 6." },
             { type: "dictation", text: "Bữa cơm gia đình thật tuyệt.", note: "Con viết lại nhé." }
         ]
-        }
+        }    , {
+        id: 114,
+        volume: 2,
+        type: "reading",
+        chapter: 2,
+        chapterName: "Mái ấm gia đình",
+        lessonInChapter: 6,
+        title: "Bài đọc: Ngôi nhà",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🏠",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 14: Ngôi nhà. Bài thơ nói về tình yêu của bạn nhỏ dành cho ngôi nhà mộc mạc." },
+            { type: "ask_aloud", prompt: "Trước ngõ nhà bạn nhỏ có cây gì?", reveal: "Có hàng xoan trước ngõ." },
+            { type: "dictation", text: "Em yêu ngôi nhà gỗ tre mộc mạc.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 115,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 1,
+        title: "Bài đọc: Tôi đi học",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🎒",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 15: Tôi đi học. Cảm xúc bỡ ngỡ và xúc động trong ngày đầu tiên đến trường." },
+            { type: "ask_aloud", prompt: "Thầy giáo trẻ đón các bạn vào lớp như thế nào?", reveal: "Với gương mặt hiền từ." },
+            { type: "dictation", text: "Ngày đầu đi học thật đáng nhớ.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 116,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 2,
+        title: "Bài đọc: Đi học",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🍃",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 16: Đi học. Bài thơ về con đường đi học đầy hương thơm của núi rừng." },
+            { type: "ask_aloud", prompt: "Cái gì xòe ô che nắng cho bạn nhỏ?", reveal: "Lá cọ xòe ô che nắng." },
+            { type: "dictation", text: "Hương rừng thơm đồi vắng.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 117,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 3,
+        title: "Bài đọc: Hoa yêu thương",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🌸",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 17: Hoa yêu thương. Cả lớp cùng vẽ tranh để dành tặng cô giáo." },
+            { type: "ask_aloud", prompt: "Trên cánh hoa, các bạn nhỏ ghi gì?", reveal: "Ghi tên tổ của mình." },
+            { type: "dictation", text: "Cả lớp cùng làm hoa yêu thương.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 118,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 4,
+        title: "Bài đọc: Cây bàng và lớp học",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🌳",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 18: Cây bàng và lớp học. Cây bàng già như người bạn thân thiết của các bạn nhỏ." },
+            { type: "ask_aloud", prompt: "Tán cây bàng được ví như cái gì?", reveal: "Như cái ô xanh mướt." },
+            { type: "dictation", text: "Cây bàng già vẫy chào các bạn.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 119,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 5,
+        title: "Bài đọc: Bác trống trường",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🥁",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 19: Bác trống trường. Bác trống gắn bó với học trò từ bao đời nay." },
+            { type: "ask_aloud", prompt: "Trống trường giúp học trò việc gì?", reveal: "Giúp học trò ra vào lớp đúng giờ." },
+            { type: "dictation", text: "Bác trống là người bạn thân thiết.", note: "Con viết lại nhé." }
+        ]
+    }, {
+        id: 120,
+        volume: 2,
+        type: "reading",
+        chapter: 3,
+        chapterName: "Mái trường mến yêu",
+        lessonInChapter: 6,
+        title: "Bài đọc: Giờ ra chơi",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "⚽",
+        steps: [
+            { type: "narrate", role: "teacher", text: "Bài 20: Giờ ra chơi. Sân trường sôi động với những trò chơi thú vị." },
+            { type: "ask_aloud", prompt: "Đến giờ ra chơi, các bạn làm gì?", reveal: "Các bạn ùa ra sân trường chơi nhảy dây, đá cầu." },
+            { type: "dictation", text: "Giờ ra chơi thật là vui.", note: "Con viết lại nhé." }
+        ]
+             }
+    
 ];
