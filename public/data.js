@@ -797,42 +797,178 @@ situation: { title: "Bà của em", background_image: null, dialogs: [
     { role: "student", text: "Con cũng giúp bà nhặt rau với quét nhà. Con yêu bà lắm!", icon: "🧒" }
 ]} },
     { id: 45, char: "Ôn tập", sub: "Ôn tập", word: "chịu khó", svgKey: null, icon: "💪", sentence: "Mùa hè ở Tam Đảo quả là dễ chịu.", intro: "Bài 45. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "muu trí", icon: "🧠" }, { word: "cây cau", icon: "🌴" }], situation: null },
-    { id: 46, char: "ac, ăc, âc", sub: "ac ăc âc", word: "mắc áo", svgKey: null, icon: "🧥", sentence: "Tây Bắc có ruộng bậc thang, có thác nước.", intro: "Bài 46. Vần ac, ặc, âc.", detail: "Học vần ac, ặc, âc.", guide_intro: "Luyện đọc.", guide_phoneme: "Ac, Ặc, Âc", examples: [{ word: "bác sĩ", icon: "👨‍⚕️" }, { word: "quả gấc", icon: "🍈" }], situation: null },
-    { id: 47, char: "oc, ôc, uc, ưc", sub: "oc ôc uc ưc", word: "con sóc", svgKey: null, icon: "🐿️", sentence: "Ở góc vườn, cạnh gốc cau, khóm cúc nở hoa vàng rực.", intro: "Bài 47. Vần oc, ốc, uc, ực.", detail: "Học vần oc, ốc, uc, ực.", guide_intro: "Luyện đọc.", guide_phoneme: "Oc, Ốc, Uc, Ực", examples: [{ word: "máy xúc", icon: "🚜" }, { word: "con mực", icon: "🦑" }], situation: null },
-    { id: 48, char: "at, ăt, ât", sub: "at ăt ât", word: "mặt trời", svgKey: null, icon: "☀️", sentence: "Nam bắt nhịp cho tất cả các bạn hát.", intro: "Bài 48. Vần at, ăt, ât.", detail: "Học vần at, ăt, ât.", guide_intro: "Luyện đọc.", guide_phoneme: "At, Ăt, Ât", examples: [{ word: "bãi cát", icon: "🏖️" }, { word: "bật lửa", icon: "🔥" }], situation: null },
-    { id: 49, char: "ot, ôt, ơt", sub: "ot ôt ơt", word: "lá lốt", svgKey: null, icon: "🍃", sentence: "Vườn nhà bà có ớt, rau ngót và cà rốt.", intro: "Bài 49. Vần ot, ôt, ơt.", detail: "Học vần ot, ôt, ơt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ot, Ôt, Ơt", examples: [{ word: "quả nhót", icon: "🍒" }, { word: "quả ớt", icon: "🌶️" }], situation: null },
+    { id: 46, char: "ac, ăc, âc", sub: "ac ăc âc", word: "mắc áo", svgKey: null, icon: "🧥", sentence: "Tây Bắc có ruộng bậc thang, có thác nước.", intro: "Bài 46. Vần ac, ặc, âc.", detail: "Học vần ac, ặc, âc.", guide_intro: "Luyện đọc.", guide_phoneme: "Ac, Ặc, Âc", examples: [{ word: "bác sĩ", icon: "👨‍⚕️" }, { word: "quả gấc", icon: "🍈" }], // BÀI 46 (ac ăc âc) — SGV: thực hành nói lời xin phép
+situation: { title: "Tập nói lời xin phép", background_image: null, dialogs: [
+    { role: "teacher", text: "Nếu con muốn mượn đồ chơi của bạn, con sẽ nói thế nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Cho mình mượn đồ chơi này một lát được không?", icon: "🧒" },
+    { role: "teacher", text: "Rất lễ phép! Mượn gì của ai mình cũng phải xin phép trước nhé.", icon: "👩‍🏫" }
+]}},
+    { id: 47, char: "oc, ôc, uc, ưc", sub: "oc ôc uc ưc", word: "con sóc", svgKey: null, icon: "🐿️", sentence: "Ở góc vườn, cạnh gốc cau, khóm cúc nở hoa vàng rực.", intro: "Bài 47. Vần oc, ốc, uc, ực.", detail: "Học vần oc, ốc, uc, ực.", guide_intro: "Luyện đọc.", guide_phoneme: "Oc, Ốc, Uc, Ực", examples: [{ word: "máy xúc", icon: "🚜" }, { word: "con mực", icon: "🦑" }], // BÀI 47 (oc ôc uc ưc) — SGV: sở thích của em
+situation: { title: "Sở thích của em", background_image: null, dialogs: [
+    { role: "teacher", text: "Con hãy kể cho cô nghe, sở thích của con là gì nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích vẽ tranh và nghe kể chuyện ạ!", icon: "🧒" },
+    { role: "teacher", text: "Thích lắm! Mỗi bạn đều có sở thích riêng của mình.", icon: "👩‍🏫" }
+]}},
+    { id: 48, char: "at, ăt, ât", sub: "at ăt ât", word: "mặt trời", svgKey: null, icon: "☀️", sentence: "Nam bắt nhịp cho tất cả các bạn hát.", intro: "Bài 48. Vần at, ăt, ât.", detail: "Học vần at, ăt, ât.", guide_intro: "Luyện đọc.", guide_phoneme: "At, Ăt, Ât", examples: [{ word: "bãi cát", icon: "🏖️" }, { word: "bật lửa", icon: "🔥" }], // BÀI 48 (at ăt ât) — SGV: xin phép mượn đồ chơi người khác
+situation: { title: "Xin phép mượn đồ chơi", background_image: null, dialogs: [
+    { role: "narrator", text: "Bạn nhỏ nhìn thấy một món đồ chơi đẹp ở nhà bác hàng xóm.", icon: "🧸" },
+    { role: "student", text: "Bác ơi, cháu xin phép mượn đồ chơi này chơi một lát được không ạ?", icon: "🧒" },
+    { role: "teacher", text: "Muốn chơi đồ của người khác, mình luôn phải xin phép trước như vậy đó.", icon: "👩‍🏫" }
+]} },
+    { id: 49, char: "ot, ôt, ơt", sub: "ot ôt ơt", word: "lá lốt", svgKey: null, icon: "🍃", sentence: "Vườn nhà bà có ớt, rau ngót và cà rốt.", intro: "Bài 49. Vần ot, ôt, ơt.", detail: "Học vần ot, ôt, ơt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ot, Ôt, Ơt", examples: [{ word: "quả nhót", icon: "🍒" }, { word: "quả ớt", icon: "🌶️" }], // BÀI 49 (ot ôt ơt) — SGV: chia sẻ về "thế giới của em"
+situation: { title: "Thế giới của em", background_image: null, dialogs: [
+    { role: "teacher", text: "Con hãy kể cho cô nghe về những điều gần gũi, quen thuộc với con nhé.", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích chơi trò chơi quen thuộc và khám phá thiên nhiên xung quanh nhà ạ.", icon: "🧒" },
+    { role: "teacher", text: "Thế giới của con thật thú vị!", icon: "👩‍🏫" }
+]} },
     { id: 50, char: "Ôn tập", sub: "Ôn tập", word: "gà mẹ", svgKey: null, icon: "🐔", sentence: "Gà mẹ dẫn đàn con đi ăn.", intro: "Bài 50. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "giấc mơ", icon: "💤" }, { word: "hạt thóc", icon: "🌾" }], situation: null },
-    { id: 51, char: "et, êt, it", sub: "et êt it", word: "con vẹt", svgKey: null, icon: "🦜", sentence: "Đôi vẹt ríu rít mãi không hết chuyện.", intro: "Bài 51. Vần et, êt, it.", detail: "Học vần et, êt, it.", guide_intro: "Luyện đọc.", guide_phoneme: "Et, Êt, It", examples: [{ word: "bồ kết", icon: "🥣" }, { word: "quả mít", icon: "🍈" }], situation: null },
-    { id: 52, char: "ut, ưt", sub: "ut ưt", word: "bút chì", svgKey: null, icon: "✏️", sentence: "Cầu thủ số 7 thu hút khán giả.", intro: "Bài 52. Vần ut, ưt.", detail: "Học vần ut, ưt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ut, Ưt", examples: [{ word: "mứt dừa", icon: "🥥" }, { word: "nứt nẻ", icon: "🌵" }], situation: null },
-    { id: 53, char: "ap, ăp, âp", sub: "ap ăp âp", word: "cặp da", svgKey: null, icon: "💼", sentence: "Mẹ đạp xe đưa Hà đến lớp.", intro: "Bài 53. Vần ap, ắp, ập.", detail: "Học vần ap, ắp, ập.", guide_intro: "Luyện đọc.", guide_phoneme: "Ap, Ắp, Ập", examples: [{ word: "xe đạp", icon: "🚲" }, { word: "cá mập", icon: "🦈" }], situation: null },
-    { id: 54, char: "op, ôp, ơp", sub: "op ôp ơp", word: "lốp xe", svgKey: null, icon: "🛞", sentence: "Mưa rào lộp độp.", intro: "Bài 54. Vần op, ôp, ơp.", detail: "Học vần op, ôp, ơp.", guide_intro: "Luyện đọc.", guide_phoneme: "Op, Ôp, Ơp", examples: [{ word: "con cọp", icon: "🐅" }, { word: "tia chớp", icon: "⚡" }], situation: null },
+    { id: 51, char: "et, êt, it", sub: "et êt it", word: "con vẹt", svgKey: null, icon: "🦜", sentence: "Đôi vẹt ríu rít mãi không hết chuyện.", intro: "Bài 51. Vần et, êt, it.", detail: "Học vần et, êt, it.", guide_intro: "Luyện đọc.", guide_phoneme: "Et, Êt, It", examples: [{ word: "bồ kết", icon: "🥣" }, { word: "quả mít", icon: "🍈" }], // BÀI 51 (et êt it) — SGV: thời tiết nóng và lạnh
+situation: { title: "Thời tiết nóng lạnh", background_image: null, dialogs: [
+    { role: "teacher", text: "Khi trời lạnh, con mặc quần áo như thế nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Con mặc áo ấm dày. Còn khi trời nóng, con mặc áo mỏng, ngắn tay ạ.", icon: "🧒" },
+    { role: "teacher", text: "Đúng rồi, mình cần ăn mặc phù hợp với thời tiết đó con.", icon: "👩‍🏫" }
+]}},
+    { id: 52, char: "ut, ưt", sub: "ut ưt", word: "bút chì", svgKey: null, icon: "✏️", sentence: "Cầu thủ số 7 thu hút khán giả.", intro: "Bài 52. Vần ut, ưt.", detail: "Học vần ut, ưt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ut, Ưt", examples: [{ word: "mứt dừa", icon: "🥥" }, { word: "nứt nẻ", icon: "🌵" }], // BÀI 52 (ut ưt) — SGV: môn thể thao bóng đá
+situation: { title: "Môn bóng đá", background_image: null, dialogs: [
+    { role: "teacher", text: "Con có biết môn thể thao nào có hai đội, đá bóng vào lưới nhau không?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, đó là môn bóng đá ạ! Con rất thích xem bóng đá!", icon: "🧒" },
+    { role: "teacher", text: "Giỏi lắm! Con có hay chơi bóng đá với bạn không?", icon: "👩‍🏫" }
+]}
+ },
+    { id: 53, char: "ap, ăp, âp", sub: "ap ăp âp", word: "cặp da", svgKey: null, icon: "💼", sentence: "Mẹ đạp xe đưa Hà đến lớp.", intro: "Bài 53. Vần ap, ắp, ập.", detail: "Học vần ap, ắp, ập.", guide_intro: "Luyện đọc.", guide_phoneme: "Ap, Ắp, Ập", examples: [{ word: "xe đạp", icon: "🚲" }, { word: "cá mập", icon: "🦈" }], // BÀI 53 (ap ăp âp) — SGV: đồ vật quen thuộc
+situation: { title: "Đồ vật quen thuộc", background_image: null, dialogs: [
+    { role: "teacher", text: "Khi ngồi xe máy, con phải đội gì để bảo vệ đầu?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, con đội mũ bảo hiểm ạ. Trời mưa thì con dùng ô, đi học thì mang cặp sách.", icon: "🧒" },
+    { role: "teacher", text: "Con nhớ rất rõ công dụng của từng đồ vật đó!", icon: "👩‍🏫" }
+]} },
+    { id: 54, char: "op, ôp, ơp", sub: "op ôp ơp", word: "lốp xe", svgKey: null, icon: "🛞", sentence: "Mưa rào lộp độp.", intro: "Bài 54. Vần op, ôp, ơp.", detail: "Học vần op, ôp, ơp.", guide_intro: "Luyện đọc.", guide_phoneme: "Op, Ôp, Ơp", examples: [{ word: "con cọp", icon: "🐅" }, { word: "tia chớp", icon: "⚡" }], // BÀI 54 (op ôp ơp) — SGV: so sánh ao và hồ
+situation: { title: "Ao và hồ", background_image: null, dialogs: [
+    { role: "teacher", text: "Ao và hồ đều có nước, nhưng con biết chúng khác nhau thế nào không?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, ao thường nhỏ hơn hồ ạ.", icon: "🧒" },
+    { role: "teacher", text: "Đúng rồi! Ở ao hồ thường có cá, ếch, nhái sinh sống đó con.", icon: "👩‍🏫" }
+]} },
     { id: 55, char: "Ôn tập", sub: "Ôn tập", word: "tấp nập", svgKey: null, icon: "🏬", sentence: "Chợ đông vui và bán đủ thứ.", intro: "Bài 55. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "nét chữ", icon: "✍️" }, { word: "hồi hộp", icon: "😰" }], situation: null },
     { id: 56, char: "ep, êp, ip, up", sub: "ep êp ip up", word: "búp sen", svgKey: null, icon: "🪷", sentence: "Trong bếp, lũ cún con múp míp nép vào bên mẹ.", intro: "Bài 56. Vần ep, êp, ip, up.", detail: "Học vần ep, êp, ip, up.", guide_intro: "Luyện đọc.", guide_phoneme: "Ep, Êp, Ip, Up", examples: [{ word: "đôi dép", icon: "🩴" }, { word: "đầu bếp", icon: "👨‍🍳" }], situation: null },
-    { id: 57, char: "anh, ênh, inh", sub: "anh ênh inh", word: "quả chanh", svgKey: null, icon: "🍋", sentence: "Con kênh xinh xinh chảy qua cánh đồng.", intro: "Bài 57. Vần anh, ênh, inh.", detail: "Học vần anh, ênh, inh.", guide_intro: "Luyện đọc.", guide_phoneme: "Anh, Ênh, Inh", examples: [{ word: "bờ kênh", icon: "🌊" }, { word: "kính râm", icon: "🕶️" }], situation: null },
-    { id: 58, char: "ach, êch, ich", sub: "ach êch ich", word: "sách vở", svgKey: null, icon: "📚", sentence: "Ếch con thích đọc sách.", intro: "Bài 58. Vần ach, êch, ich.", detail: "Học vần ach, êch, ich.", guide_intro: "Luyện đọc.", guide_phoneme: "Ach, Êch, Ich", examples: [{ word: "chênh lệch", icon: "⚖️" }, { word: "tờ lịch", icon: "📅" }], situation: null },
-    { id: 59, char: "ang, ăng, âng", sub: "ang ăng âng", word: "cá vàng", svgKey: null, icon: "🐟", sentence: "Vầng trăng sáng lấp ló sau rặng tre.", intro: "Bài 59. Vần ang, ăng, âng.", detail: "Học vần ang, ăng, âng.", guide_intro: "Luyện đọc.", guide_phoneme: "Ang, Ăng, Âng", examples: [{ word: "măng tre", icon: "🎋" }, { word: "nhà tầng", icon: "🏢" }], situation: null },
+    { id: 57, char: "anh, ênh, inh", sub: "anh ênh inh", word: "quả chanh", svgKey: null, icon: "🍋", sentence: "Con kênh xinh xinh chảy qua cánh đồng.", intro: "Bài 57. Vần anh, ênh, inh.", detail: "Học vần anh, ênh, inh.", guide_intro: "Luyện đọc.", guide_phoneme: "Anh, Ênh, Inh", examples: [{ word: "bờ kênh", icon: "🌊" }, { word: "kính râm", icon: "🕶️" }], // BÀI 57 (anh ênh inh) — SGV: nhà có khách
+situation: { title: "Nhà có khách", background_image: null, dialogs: [
+    { role: "narrator", text: "Nhà Hà hôm nay có khách. Bố, mẹ, Hà, chú Tư và cô Lan cùng ăn cơm vui vẻ.", icon: "🍽️" },
+    { role: "teacher", text: "Khi nhà có khách, con nên làm gì?", icon: "👩‍🏫" },
+    { role: "student", text: "Con chào hỏi khách, vui vẻ niềm nở và giúp bố mẹ tiếp khách ạ.", icon: "🧒" }
+]} },
+    { id: 58, char: "ach, êch, ich", sub: "ach êch ich", word: "sách vở", svgKey: null, icon: "📚", sentence: "Ếch con thích đọc sách.", intro: "Bài 58. Vần ach, êch, ich.", detail: "Học vần ach, êch, ich.", guide_intro: "Luyện đọc.", guide_phoneme: "Ach, Êch, Ich", examples: [{ word: "chênh lệch", icon: "⚖️" }, { word: "tờ lịch", icon: "📅" }], // BÀI 58 (ach êch ich) — SGV: hoạt động thể dục thể thao
+situation: { title: "Rèn luyện sức khỏe", background_image: null, dialogs: [
+    { role: "teacher", text: "Con thích hoạt động thể dục thể thao nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích chạy bộ và nhảy dây ạ, giúp con khỏe mạnh hơn!", icon: "🧒" },
+    { role: "teacher", text: "Rèn luyện thân thể mỗi ngày rất tốt cho sức khỏe đó con.", icon: "👩‍🏫" }
+]} },
+    { id: 59, char: "ang, ăng, âng", sub: "ang ăng âng", word: "cá vàng", svgKey: null, icon: "🐟", sentence: "Vầng trăng sáng lấp ló sau rặng tre.", intro: "Bài 59. Vần ang, ăng, âng.", detail: "Học vần ang, ăng, âng.", guide_intro: "Luyện đọc.", guide_phoneme: "Ang, Ăng, Âng", examples: [{ word: "măng tre", icon: "🎋" }, { word: "nhà tầng", icon: "🏢" }], // BÀI 59 (ang ăng âng) — SGV: kể về lớp học của em
+situation: { title: "Lớp học của em", background_image: null, dialogs: [
+    { role: "teacher", text: "Con hãy kể cho cô nghe về lớp học của con nhé.", icon: "👩‍🏫" },
+    { role: "student", text: "Lớp con có nhiều bạn, có cô giáo dạy học, có tổ trưởng và lớp trưởng ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con kể rất rõ ràng, cô khen con!", icon: "👩‍🏫" }
+]} },
     { id: 60, char: "Ôn tập", sub: "Ôn tập", word: "vâng lời", svgKey: null, icon: "✅", sentence: "Hà rất thích con gà bà cho.", intro: "Bài 60. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "xinh đẹp", icon: "✨" }, { word: "thẳng hàng", icon: "📏" }], situation: null },
     // [NHÁP - bài 61 mới thêm, anh thay câu/hội thoại thật từ SGK khi dạy học sinh]
-    { id: 61, char: "ong, ông, ung, ưng", sub: "ong ông ung ưng", word: "quả bóng", svgKey: null, icon: "⚽", sentence: "Bé đọc và ghép được vần ong, ông, ung, ưng.", intro: "Bài 61. Vần ong, ông, ung, ưng.", detail: "Học vần ong, ông, ung, ưng.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Ong, Ông, Ung, Ưng", examples: [{ word: "quả bóng", icon: "⚽" }, { word: "dòng sông", icon: "🌊" }, { word: "khủng long", icon: "🦕" }, { word: "vui mừng", icon: "😄" }], situation: null },
-    { id: 62, char: "iêc, iên, iêp", sub: "iêc iên iêp", word: "biển", svgKey: null, icon: "🌊", sentence: "Biển xanh biếc.", intro: "Bài 62. Vần iêc, iên, iêp.", detail: "Học vần iêc, iên, iêp.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêc, Iên, Iêp", examples: [{ word: "xanh biếc", icon: "🌊" }, { word: "sò điệp", icon: "🐚" }], situation: null },
-    { id: 63, char: "iêng, iêm, yên", sub: "iêng iêm yên", word: "cá kiếm", svgKey: null, icon: "🐟", sentence: "Yến phụng có bộ lông tím biêng biếc.", intro: "Bài 63. Vần iêng, iêm, yên.", detail: "Học vần iêng, iêm, yên.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêng, Iêm, Yên", examples: [{ word: "sầu riêng", icon: "🍈" }, { word: "tổ yến", icon: "🏠" }], situation: null },
-    { id: 64, char: "iêt, iêu, yêu", sub: "iêt iêu yêu", word: "cánh diều", svgKey: null, icon: "🪁", sentence: "Em yêu sách.", intro: "Bài 64. Vần iêt, iêu, yêu.", detail: "Học vần iêt, iêu, yêu.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêt, Iêu, Yêu", examples: [{ word: "nhiệt kế", icon: "🌡️" }, { word: "yêu chiều", icon: "❤️" }], situation: null },
+    { id: 61, char: "ong, ông, ung, ưng", sub: "ong ông ung ưng", word: "quả bóng", svgKey: null, icon: "⚽", sentence: "Bé đọc và ghép được vần ong, ông, ung, ưng.", intro: "Bài 61. Vần ong, ông, ung, ưng.", detail: "Học vần ong, ông, ung, ưng.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Ong, Ông, Ung, Ưng", examples: [{ word: "quả bóng", icon: "⚽" }, { word: "dòng sông", icon: "🌊" }, { word: "khủng long", icon: "🦕" }, { word: "vui mừng", icon: "😄" }], // BÀI 61 (ong ông ung ưng) — SGV: mặt trăng và mặt trời
+situation: { title: "Mặt trăng và mặt trời", background_image: null, dialogs: [
+    { role: "teacher", text: "Mặt trời xuất hiện khi nào, còn mặt trăng xuất hiện khi nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Mặt trời xuất hiện ban ngày, mặt trăng xuất hiện ban đêm ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con nói đúng rồi đó!", icon: "👩‍🏫" }
+]} },
+    { id: 62, char: "iêc, iên, iêp", sub: "iêc iên iêp", word: "biển", svgKey: null, icon: "🌊", sentence: "Biển xanh biếc.", intro: "Bài 62. Vần iêc, iên, iêp.", detail: "Học vần iêc, iên, iêp.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêc, Iên, Iêp", examples: [{ word: "xanh biếc", icon: "🌊" }, { word: "sò điệp", icon: "🐚" }], situation: { title: "Chợ và siêu thị", background_image: null, dialogs: [
+    { role: "teacher", text: "Con đã từng đi chợ hay đi siêu thị chưa? Chúng khác nhau thế nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Ở chợ, người bán tự tính tiền. Ở siêu thị, mình tự chọn đồ rồi có nhân viên thu tiền ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con quan sát và nhớ rất tốt!", icon: "👩‍🏫" }
+]} },
+    { id: 63, char: "iêng, iêm, yên", sub: "iêng iêm yên", word: "cá kiếm", svgKey: null, icon: "🐟", sentence: "Yến phụng có bộ lông tím biêng biếc.", intro: "Bài 63. Vần iêng, iêm, yên.", detail: "Học vần iêng, iêm, yên.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêng, Iêm, Yên", examples: [{ word: "sầu riêng", icon: "🍈" }, { word: "tổ yến", icon: "🏠" }], // BÀI 63 (iêng iêm yên) — SGV: các loài chim
+situation: { title: "Những loài chim", background_image: null, dialogs: [
+    { role: "teacher", text: "Con có biết loài chim nào báo hiệu mùa xuân đến không?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, đó là chim én ạ! Vẹt biết bắt chước tiếng người, họa mi hót rất hay.", icon: "🧒" },
+    { role: "teacher", text: "Con biết nhiều về các loài chim quá!", icon: "👩‍🏫" }
+]} },
+    { id: 64, char: "iêt, iêu, yêu", sub: "iêt iêu yêu", word: "cánh diều", svgKey: null, icon: "🪁", sentence: "Em yêu sách.", intro: "Bài 64. Vần iêt, iêu, yêu.", detail: "Học vần iêt, iêu, yêu.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêt, Iêu, Yêu", examples: [{ word: "nhiệt kế", icon: "🌡️" }, { word: "yêu chiều", icon: "❤️" }], // BÀI 64 (iêt iêu yêu) — SGV: sự vật tự nhiên và do con người tạo ra
+situation: { title: "Tự nhiên và con người tạo ra", background_image: null, dialogs: [
+    { role: "teacher", text: "Mặt trăng, mặt trời là sự vật tự nhiên. Vậy máy bay là do ai tạo ra?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, máy bay do con người tạo ra ạ. Còn chim thì có sẵn trong tự nhiên.", icon: "🧒" },
+    { role: "teacher", text: "Con phân biệt rất giỏi!", icon: "👩‍🏫" }
+]} },
     { id: 65, char: "Ôn tập", sub: "Ôn tập", word: "trùng điệp", svgKey: null, icon: "⛰️", sentence: "Trái đất của chúng ta vô cùng rộng lớn.", intro: "Bài 65. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "xanh biếc", icon: "🌊" }, { word: "tiếng trống", icon: "🥁" }], situation: null },
-    { id: 66, char: "uôi, uôm", sub: "uôi uôm", word: "thuyền buồm", svgKey: null, icon: "⛵", sentence: "Thuyền buồm xuôi theo chiều gió.", intro: "Bài 66. Vần uôi, uôm.", detail: "Học vần uôi, uôm.", guide_intro: "Luyện đọc.", guide_phoneme: "Uôi, Uôm", examples: [{ word: "con suối", icon: "💧" }, { word: "buổi sáng", icon: "☀️" }], situation: null },
-    { id: 67, char: "uôc, uôt", sub: "uôc uôt", word: "con chuột", svgKey: null, icon: "🐭", sentence: "Mẹ vuốt tóc và buộc nơ cho Hà.", intro: "Bài 67. Vần uộc, uột.", detail: "Học vần uộc, uột.", guide_intro: "Luyện đọc.", guide_phoneme: "Uộc, Uột", examples: [{ word: "ngọn đuốc", icon: "🕯️" }, { word: "viên thuốc", icon: "💊" }], situation: null },
-    { id: 68, char: "uôn, uông", sub: "uôn uông", word: "chuồn chuồn", svgKey: null, icon: "🚁", sentence: "Chuồn chuồn bay qua các luống rau.", intro: "Bài 68. Vần uôn, uông.", detail: "Học vần uôn, uông.", guide_intro: "Luyện đọc.", guide_phoneme: "Uôn, Uông", examples: [{ word: "cuộn chỉ", icon: "🧵" }, { word: "quả chuông", icon: "🔔" }], situation: null },
-    { id: 69, char: "ươi, ươu", sub: "ươi ươu", word: "tươi cười", svgKey: null, icon: "😊", sentence: "Chim khướu biết bắt chước tiếng người.", intro: "Bài 69. Vần ươi, ươu.", detail: "Học vần ươi, ươu.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươi, Ươu", examples: [{ word: "quả bưởi", icon: "🍊" }, { word: "ốc bươu", icon: "🐌" }], situation: null },
+    { id: 66, char: "uôi, uôm", sub: "uôi uôm", word: "thuyền buồm", svgKey: null, icon: "⛵", sentence: "Thuyền buồm xuôi theo chiều gió.", intro: "Bài 66. Vần uôi, uôm.", detail: "Học vần uôi, uôm.", guide_intro: "Luyện đọc.", guide_phoneme: "Uôi, Uôm", examples: [{ word: "con suối", icon: "💧" }, { word: "buổi sáng", icon: "☀️" }], // BÀI 66 (uôi uôm) — SGV: phương tiện trên biển
+situation: { title: "Phương tiện trên biển", background_image: null, dialogs: [
+    { role: "teacher", text: "Nếu đi lại trên biển, con sẽ chọn phương tiện nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Con chọn thuyền buồm ạ, vì thuyền có thể đi trên mặt nước.", icon: "🧒" },
+    { role: "teacher", text: "Con trả lời rất hợp lý!", icon: "👩‍🏫" }
+]} },
+    { id: 67, char: "uôc, uôt", sub: "uôc uôt", word: "con chuột", svgKey: null, icon: "🐭", sentence: "Mẹ vuốt tóc và buộc nơ cho Hà.", intro: "Bài 67. Vần uộc, uột.", detail: "Học vần uộc, uột.", guide_intro: "Luyện đọc.", guide_phoneme: "Uộc, Uột", examples: [{ word: "ngọn đuốc", icon: "🕯️" }, { word: "viên thuốc", icon: "💊" }], // BÀI 67 (uôc uôt) — SGV: chuẩn bị đi dự sinh nhật bạn
+situation: { title: "Đi dự sinh nhật bạn", background_image: null, dialogs: [
+    { role: "teacher", text: "Con đã từng đi dự sinh nhật bạn chưa? Con cảm thấy thế nào?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ rồi ạ, con rất thích thú khi được tặng quà và chúc mừng bạn!", icon: "🧒" },
+    { role: "teacher", text: "Vui quá! Sinh nhật là dịp để bạn bè quây quần bên nhau.", icon: "👩‍🏫" }
+]} },
+    { id: 68, char: "uôn, uông", sub: "uôn uông", word: "chuồn chuồn", svgKey: null, icon: "🚁", sentence: "Chuồn chuồn bay qua các luống rau.", intro: "Bài 68. Vần uôn, uông.", detail: "Học vần uôn, uông.", guide_intro: "Luyện đọc.", guide_phoneme: "Uôn, Uông", examples: [{ word: "cuộn chỉ", icon: "🧵" }, { word: "quả chuông", icon: "🔔" }], // BÀI 68 (uôn uông) — SGV: hiện tượng thời tiết
+situation: { title: "Hiện tượng thời tiết", background_image: null, dialogs: [
+    { role: "teacher", text: "Con thích hiện tượng thời tiết nào? Mưa, nắng, hay cầu vồng?", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích cầu vồng nhất ạ, vì nó có nhiều màu sắc đẹp!", icon: "🧒" },
+    { role: "teacher", text: "Cầu vồng thường xuất hiện sau cơn mưa đó con.", icon: "👩‍🏫" }
+]} },
+    { id: 69, char: "ươi, ươu", sub: "ươi ươu", word: "tươi cười", svgKey: null, icon: "😊", sentence: "Chim khướu biết bắt chước tiếng người.", intro: "Bài 69. Vần ươi, ươu.", detail: "Học vần ươi, ươu.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươi, Ươu", examples: [{ word: "quả bưởi", icon: "🍊" }, { word: "ốc bươu", icon: "🐌" }], // BÀI 69 (ươi ươu) — SGV: lợi ích của vật nuôi
+situation: { title: "Yêu thương vật nuôi", background_image: null, dialogs: [
+    { role: "teacher", text: "Con có biết vật nuôi mang lại lợi ích gì cho con người không?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ, gà cho trứng, chó giữ nhà, mèo bắt chuột ạ.", icon: "🧒" },
+    { role: "teacher", text: "Đúng rồi, vì vậy mình cần yêu thương, không được ngược đãi vật nuôi nhé.", icon: "👩‍🏫" }
+]} },
     { id: 70, char: "Ôn tập", sub: "Ôn tập", word: "cưỡi ngựa", svgKey: null, icon: "🐎", sentence: "Ông trồng nhiều cây ăn trái.", intro: "Bài 70. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "cưỡi ngựa", icon: "🐎" }, { word: "lem luốc", icon: "🎨" }], situation: null },
-    { id: 71, char: "ươc, ươt", sub: "ươc ươt", word: "thước kẻ", svgKey: null, icon: "📏", sentence: "Hà ước được lướt sóng biển.", intro: "Bài 71. Vần ược, uot.", detail: "Học vần ược, uot.", guide_intro: "Luyện đọc.", guide_phoneme: "Ược, Uot", examples: [{ word: "lướt ván", icon: "🏄" }, { word: "dược sĩ", icon: "👨‍🔬" }], situation: null },
-    { id: 72, char: "ươm, ươp", sub: "ươm ươp", word: "con bướm", svgKey: null, icon: "🦋", sentence: "Hoa mướp vàng ươm, bướm bay rập rờn.", intro: "Bài 72. Vần ươm, ươp.", detail: "Học vần ươm, ươp.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươm, Ươp", examples: [{ word: "nườm nượp", icon: "🚶" }, { word: "giàn mướp", icon: "🍈" }], situation: null },
-    { id: 73, char: "ươn, ương", sub: "ươn ương", word: "con đường", svgKey: null, icon: "🛣️", sentence: "Đường tới trường lượn theo sườn đồi.", intro: "Bài 73. Vần ươn, ương.", detail: "Học vần ươn, ương.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươn, Ương", examples: [{ word: "khu vườn", icon: "🌳" }, { word: "hạt sương", icon: "💧" }], situation: null },
-    { id: 74, char: "oa, oe", sub: "oa oe", word: "đóa hoa", svgKey: null, icon: "🌺", sentence: "Các loài hoa đua nhau khoe sắc.", intro: "Bài 74. Vần oa, oe.", detail: "Học vần oa, oe.", guide_intro: "Luyện đọc.", guide_phoneme: "Oa, Oe", examples: [{ word: "váy xòe", icon: "👗" }, { word: "chích chòe", icon: "🐦" }], situation: null },
+    { id: 71, char: "ươc, ươt", sub: "ươc ươt", word: "thước kẻ", svgKey: null, icon: "📏", sentence: "Hà ước được lướt sóng biển.", intro: "Bài 71. Vần ược, uot.", detail: "Học vần ược, uot.", guide_intro: "Luyện đọc.", guide_phoneme: "Ược, Uot", examples: [{ word: "lướt ván", icon: "🏄" }, { word: "dược sĩ", icon: "👨‍🔬" }], // BÀI 71 (ươc ươt) — SGV: nghề nghiệp
+situation: { title: "Ước mơ nghề nghiệp", background_image: null, dialogs: [
+    { role: "teacher", text: "Bác sĩ, phi công, thầy giáo mỗi người làm công việc gì?", icon: "👩‍🏫" },
+    { role: "student", text: "Bác sĩ chữa bệnh, phi công lái máy bay, thầy giáo dạy học ạ.", icon: "🧒" },
+    { role: "teacher", text: "Sau này con muốn làm nghề gì?", icon: "👩‍🏫" },
+    { role: "student", text: "Con muốn làm bác sĩ để giúp mọi người khỏe mạnh ạ!", icon: "🧒" }
+]} },
+    { id: 72, char: "ươm, ươp", sub: "ươm ươp", word: "con bướm", svgKey: null, icon: "🦋", sentence: "Hoa mướp vàng ươm, bướm bay rập rờn.", intro: "Bài 72. Vần ươm, ươp.", detail: "Học vần ươm, ươp.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươm, Ươp", examples: [{ word: "nườm nượp", icon: "🚶" }, { word: "giàn mướp", icon: "🍈" }], // BÀI 72 (ươm ươp) — SGV: con vật nuôi yêu thích
+situation: { title: "Con vật nuôi yêu thích", background_image: null, dialogs: [
+    { role: "teacher", text: "Con thích nuôi con vật gì nhất?", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích nuôi mèo ạ, vì mèo rất dễ thương và thích chơi với con.", icon: "🧒" },
+    { role: "teacher", text: "Con kể cho cô nghe thêm về chú mèo của con đi!", icon: "👩‍🏫" }
+]} },
+    { id: 73, char: "ươn, ương", sub: "ươn ương", word: "con đường", svgKey: null, icon: "🛣️", sentence: "Đường tới trường lượn theo sườn đồi.", intro: "Bài 73. Vần ươn, ương.", detail: "Học vần ươn, ương.", guide_intro: "Luyện đọc.", guide_phoneme: "Ươn, Ương", examples: [{ word: "khu vườn", icon: "🌳" }, { word: "hạt sương", icon: "💧" }], // BÀI 73 (ươn ương) — SGV: việc làm buổi sáng thức dậy
+situation: { title: "Buổi sáng của em", background_image: null, dialogs: [
+    { role: "teacher", text: "Mỗi sáng thức dậy, con thường làm gì đầu tiên?", icon: "👩‍🏫" },
+    { role: "student", text: "Con đánh răng, rửa mặt, rồi ăn sáng trước khi đi học ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con có thói quen buổi sáng rất tốt!", icon: "👩‍🏫" }
+]} },
+    { id: 74, char: "oa, oe", sub: "oa oe", word: "đóa hoa", svgKey: null, icon: "🌺", sentence: "Các loài hoa đua nhau khoe sắc.", intro: "Bài 74. Vần oa, oe.", detail: "Học vần oa, oe.", guide_intro: "Luyện đọc.", guide_phoneme: "Oa, Oe", examples: [{ word: "váy xòe", icon: "👗" }, { word: "chích chòe", icon: "🐦" }], // BÀI 74 (oa oe) — SGV: các loài hoa
+situation: { title: "Các loài hoa", background_image: null, dialogs: [
+    { role: "teacher", text: "Con thích loài hoa nào nhất?", icon: "👩‍🏫" },
+    { role: "student", text: "Con thích hoa hồng ạ, vì hoa có mùi thơm và màu đỏ rất đẹp!", icon: "🧒" },
+    { role: "teacher", text: "Hoa hồng đẹp thật đó con!", icon: "👩‍🏫" }
+]} },
     { id: 75, char: "Ôn tập", sub: "Ôn tập", word: "vàng hoe", svgKey: null, icon: "✨", sentence: "Khắp vườn, hoa tỏa hương ngào ngạt.", intro: "Bài 75. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "bay lượn", icon: "🦅" }, { word: "toả hương", icon: "🌸" }], situation: null },
-    { id: 76, char: "oan, oăn, oat, oăt", sub: "oan oăn oat oăt", word: "hoạt hình", svgKey: null, icon: "🎬", sentence: "Trên phim hoạt hình, voi bước khoan thai.", intro: "Bài 76. Vần oan, oăn, oat, oăt.", detail: "Học vần oan, oăn, oat, oăt.", guide_intro: "Luyện đọc.", guide_phoneme: "Oan, Oăn, Oat, Oăt", examples: [{ word: "tóc xoăn", icon: "👩‍🦱" }, { word: "nhọn hoắt", icon: "🗡️" }], situation: null },
+    { id: 76, char: "oan, oăn, oat, oăt", sub: "oan oăn oat oăt", word: "hoạt hình", svgKey: null, icon: "🎬", sentence: "Trên phim hoạt hình, voi bước khoan thai.", intro: "Bài 76. Vần oan, oăn, oat, oăt.", detail: "Học vần oan, oăn, oat, oăt.", guide_intro: "Luyện đọc.", guide_phoneme: "Oan, Oăn, Oat, Oăt", examples: [{ word: "tóc xoăn", icon: "👩‍🦱" }, { word: "nhọn hoắt", icon: "🗡️" }], // BÀI 76 (oan oăn oat oăt) — SGV: hoạt động trồng cây
+situation: { title: "Em trồng cây", background_image: null, dialogs: [
+    { role: "teacher", text: "Con đã bao giờ trồng cây chưa? Con có thích trồng cây không?", icon: "👩‍🏫" },
+    { role: "student", text: "Dạ có ạ, con thích trồng cây lắm vì cây giúp không khí trong lành hơn.", icon: "🧒" },
+    { role: "teacher", text: "Trồng cây là bảo vệ môi trường sống đó con!", icon: "👩‍🏫" }
+]} },
     // [NHÁP - bài 77-80 mới thêm, anh thay câu/hội thoại/câu chuyện thật từ SGK khi dạy học sinh]
-    { id: 77, char: "oai, uê, uy", sub: "oai uê uy", word: "củ khoai", svgKey: null, icon: "🍠", sentence: "Bé đọc và ghép được vần oai, uê, uy.", intro: "Bài 77. Vần oai, uê, uy.", detail: "Học vần oai, uê, uy.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Oai, Uê, Uy", examples: [{ word: "củ khoai", icon: "🍠" }, { word: "hoa huệ", icon: "🌼" }, { word: "quý giá", icon: "💎" }], situation: null },
-    { id: 78, char: "uân, uât", sub: "uân uât", word: "mùa xuân", svgKey: null, icon: "🌱", sentence: "Bé đọc và ghép được vần uân, uât.", intro: "Bài 78. Vần uân, uât.", detail: "Học vần uân, uât.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Uân, Uât", examples: [{ word: "mùa xuân", icon: "🌱" }, { word: "nghệ thuật", icon: "🎨" }], situation: null },
-    { id: 79, char: "uyên, uyêt", sub: "uyên uyêt", word: "lời khuyên", svgKey: null, icon: "💬", sentence: "Bé đọc và ghép được vần uyên, uyêt.", intro: "Bài 79. Vần uyên, uyêt.", detail: "Học vần uyên, uyêt.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Uyên, Uyêt", examples: [{ word: "lời khuyên", icon: "💬" }, { word: "tuyệt vời", icon: "🌟" }], situation: null },
+    { id: 77, char: "oai, uê, uy", sub: "oai uê uy", word: "củ khoai", svgKey: null, icon: "🍠", sentence: "Bé đọc và ghép được vần oai, uê, uy.", intro: "Bài 77. Vần oai, uê, uy.", detail: "Học vần oai, uê, uy.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Oai, Uê, Uy", examples: [{ word: "củ khoai", icon: "🍠" }, { word: "hoa huệ", icon: "🌼" }, { word: "quý giá", icon: "💎" }], // BÀI 77 (oai uê uy) — SGV: khu vườn mơ ước
+situation: { title: "Khu vườn mơ ước", background_image: null, dialogs: [
+    { role: "teacher", text: "Nếu có một khu vườn của riêng mình, con muốn trồng cây gì?", icon: "👩‍🏫" },
+    { role: "student", text: "Con muốn trồng hoa huệ và cây ăn quả ạ!", icon: "🧒" },
+    { role: "teacher", text: "Khu vườn của con nghe thật đẹp!", icon: "👩‍🏫" }
+]} },
+    { id: 78, char: "uân, uât", sub: "uân uât", word: "mùa xuân", svgKey: null, icon: "🌱", sentence: "Bé đọc và ghép được vần uân, uât.", intro: "Bài 78. Vần uân, uât.", detail: "Học vần uân, uât.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Uân, Uât", examples: [{ word: "mùa xuân", icon: "🌱" }, { word: "nghệ thuật", icon: "🎨" }], // BÀI 78 (uân uât) — SGV: ngày Tết
+situation: { title: "Ngày Tết vui vẻ", background_image: null, dialogs: [
+    { role: "teacher", text: "Con thường làm gì trong những ngày Tết?", icon: "👩‍🏫" },
+    { role: "student", text: "Con được mặc áo mới, chúc Tết ông bà và giúp mẹ dọn nhà đón Tết ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con rất ngoan khi biết giúp đỡ bố mẹ dịp Tết!", icon: "👩‍🏫" }
+]} },
+    { id: 79, char: "uyên, uyêt", sub: "uyên uyêt", word: "lời khuyên", svgKey: null, icon: "💬", sentence: "Bé đọc và ghép được vần uyên, uyêt.", intro: "Bài 79. Vần uyên, uyêt.", detail: "Học vần uyên, uyêt.", guide_intro: "Luyện đọc rõ từng vần.", guide_phoneme: "Uyên, Uyêt", examples: [{ word: "lời khuyên", icon: "💬" }, { word: "tuyệt vời", icon: "🌟" }], // BÀI 79 (uyên uyêt) — SGV: cảnh vật trăng khuyết, con thuyền
+situation: { title: "Trăng khuyết và con thuyền", background_image: null, dialogs: [
+    { role: "teacher", text: "Cô kể cho con nghe: đêm nay trăng khuyết, có một con thuyền nhỏ đang trôi trên sông.", icon: "🌙" },
+    { role: "student", text: "Cảnh đẹp quá cô ơi! Con thấy thuyền đang di chuyển trên sông ạ.", icon: "🧒" },
+    { role: "teacher", text: "Con quan sát và cảm nhận cảnh vật rất tốt!", icon: "👩‍🏫" }
+]} },
     { id: 80, char: "Ôn tập", sub: "Ôn tập và kể chuyện", word: "ôn bài", svgKey: null, icon: "📖", sentence: "Chúng mình cùng ôn lại các vần đã học nhé.", intro: "Bài 80. Ôn tập và Kể chuyện.", detail: "Ôn tập cuối Tập 1 và nghe kể chuyện.", guide_intro: "Cùng ôn lại các vần đã học nào.", guide_phoneme: "Ôn tập tổng hợp", examples: [{ word: "ôn bài", icon: "📖" }, { word: "kể chuyện", icon: "🗣️" }], situation: null },
 				{
 					id: 200,
