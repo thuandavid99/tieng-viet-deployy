@@ -704,13 +704,71 @@ const lessons = [
     ]
 }
 	},
-    { id: 33, char: "en, ên, in, un", sub: "en ên in un", word: "cún con", svgKey: null, icon: "🐶", sentence: "Cún con nhìn thấy dế mèn trên tàu lá.", intro: "Bài 33. Vần en, ên, in, un.", detail: "Học vần en, ên, in, un.", guide_intro: "Chú ý âm cuối n.", guide_phoneme: "En, Ên, In, Un", examples: [{ word: "ngọn nến", icon: "🕯️" }, { word: "đèn pin", icon: "🔦" }], situation: null },
-    { id: 34, char: "am, ăm, âm", sub: "am ăm âm", word: "quả cam", svgKey: null, icon: "🍊", sentence: "Nhện ngắm nghía tấm lưới vừa làm xong.", intro: "Bài 34. Vần am, ăm, âm.", detail: "Học vần am, ăm, âm.", guide_intro: "Âm m ở cuối.", guide_phoneme: "Am, Ăm, Âm", examples: [{ word: "tăm tre", icon: "🥢" }, { word: "củ sâm", icon: "🥕" }], situation: null },
+    { id: 33, char: "en, ên, in, un", sub: "en ên in un", word: "cún con", svgKey: null, icon: "🐶", sentence: "Cún con nhìn thấy dế mèn trên tàu lá.", intro: "Bài 33. Vần en, ên, in, un.", detail: "Học vần en, ên, in, un.", guide_intro: "Chú ý âm cuối n.", guide_phoneme: "En, Ên, In, Un", examples: [{ word: "ngọn nến", icon: "🕯️" }, { word: "đèn pin", icon: "🔦" }], situation: {
+    title: "Xin lỗi bác bảo vệ",
+    background_image: null,
+    dialogs: [
+        { role: "narrator", text: "Nam chạy vội trong sân trường và va phải bác bảo vệ.", icon: "🏃" },
+        { role: "student", text: "Cháu xin lỗi bác! Cháu chạy vội quá nên không để ý ạ.", icon: "🧒" },
+        { role: "narrator", text: "Bác bảo vệ mỉm cười và nhắc nhở Nam.", icon: "👴" },
+        { role: "narrator", text: "Lần sau đi lại trong sân trường, con nhớ đi chậm và quan sát xung quanh nhé.", icon: "💬" }
+    ]
+}
+	},
+    { id: 34, char: "am, ăm, âm", sub: "am ăm âm", word: "quả cam", svgKey: null, icon: "🍊", sentence: "Nhện ngắm nghía tấm lưới vừa làm xong.", intro: "Bài 34. Vần am, ăm, âm.", detail: "Học vần am, ăm, âm.", guide_intro: "Âm m ở cuối.", guide_phoneme: "Am, Ăm, Âm", examples: [{ word: "tăm tre", icon: "🥢" }, { word: "củ sâm", icon: "🥕" }], situation: {
+    title: "Khu rừng bên dòng suối",
+    background_image: null,
+    dialogs: [
+        { role: "teacher", text: "Trong khu rừng có một dòng suối chảy róc rách, phía trên là thác nước. Con nghe thử xem có con vật gì ở đó nhé.", icon: "👩‍🏫" },
+        { role: "narrator", text: "Hai chú nai đang cúi xuống uống nước, chú hươu đứng bên bờ suối, đàn cá bơi dưới nước, vài con chim bay trên trời.", icon: "🦌" },
+        { role: "student", text: "Nai sống trong rừng, cá sống dưới nước, chim sống trên trời phải không cô?", icon: "🧒" },
+        { role: "teacher", text: "Đúng rồi! Mỗi loài vật có một nơi sinh sống riêng đó con.", icon: "👩‍🏫" }
+    ]
+}
+	},
     { id: 35, char: "Ôn tập", sub: "Ôn tập", word: "bàn chân", svgKey: null, icon: "🦶", sentence: "Gà mẹ dẫn đàn con đi ăn.", intro: "Bài 35. Ôn tập.", detail: "Ôn lại các vần đã học.", guide_intro: "Cùng ôn tập.", guide_phoneme: "Tổng hợp", examples: [{ word: "bàn chân", icon: "🦶" }, { word: "lọ mực", icon: "✒️" }], situation: { title: "Gà mẹ và con", background_image: null, dialogs: [{ role: "hen", text: "Tục tục, lại đây ăn nào!", icon: "🐔" }, { role: "chick", text: "Chúng con tới đây!", icon: "🐣" }] } },
-    { id: 36, char: "om, ôm, ơm", sub: "om ôm ơm", word: "mâm cơm", svgKey: null, icon: "🥘", sentence: "Hương cốm thơm thôn xóm.", intro: "Bài 36. Vần om, ôm, ơm.", detail: "Học vần om, ôm, ơm.", guide_intro: "Phát âm rõ vần.", guide_phoneme: "Om, Ôm, Ơm", examples: [{ word: "đom đóm", icon: "✨" }, { word: "chó đốm", icon: "🐕" }], situation: null },
-    { id: 37, char: "em, êm, im, um", sub: "em êm im um", word: "tủm tỉm", svgKey: null, icon: "😊", sentence: "Chị em Hà chơi trốn tìm.", intro: "Bài 37. Vần em, êm, im, um.", detail: "Học vần em, êm, im, um.", guide_intro: "Phát âm chuẩn âm cuối.", guide_phoneme: "Em, Êm, Im, Um", examples: [{ word: "tem thư", icon: "✉️" }, { word: "thềm nhà", icon: "🏠" }], situation: null },
-    { id: 38, char: "ai, ay, ây", sub: "ai ay ây", word: "chùm vải", svgKey: null, icon: "🍇", sentence: "Hai bạn thi nhảy dây.", intro: "Bài 38. Vần ai, ay, ây.", detail: "Học vần ai, ay, ây.", guide_intro: "Luyện phát âm.", guide_phoneme: "Ai, Ay, Ây", examples: [{ word: "máy cày", icon: "🚜" }, { word: "đám mây", icon: "☁️" }], situation: { title: "Nhím và chồn", background_image: null, dialogs: [{ role: "porcupine", text: "Bạn nhím đấy con ạ.", icon: "🦔" }, { role: "fawn", text: "Dạ vâng ạ!", icon: "🦌" }] } },
-    { id: 39, char: "oi, ôi, ơi", sub: "oi ôi ơi", word: "đồ chơi", svgKey: null, icon: "🧸", sentence: "Voi con mời bạn đi xem hội.", intro: "Bài 39. Vần oi, ôi, ơi.", detail: "Học vần oi, ôi, ơi.", guide_intro: "Luyện phát âm.", guide_phoneme: "Oi, Ôi, Ơi", examples: [{ word: "chim bói cá", icon: "🐦" }, { word: "thổi còi", icon: "📢" }], situation: null },
+    { id: 36, char: "om, ôm, ơm", sub: "om ôm ơm", word: "mâm cơm", svgKey: null, icon: "🥘", sentence: "Hương cốm thơm thôn xóm.", intro: "Bài 36. Vần om, ôm, ơm.", detail: "Học vần om, ôm, ơm.", guide_intro: "Phát âm rõ vần.", guide_phoneme: "Om, Ôm, Ơm", examples: [{ word: "đom đóm", icon: "✨" }, { word: "chó đốm", icon: "🐕" }],situation: {
+    title: "Nam xin lỗi mẹ",
+    background_image: null,
+    dialogs: [
+        { role: "narrator", text: "Nam đang chơi đá bóng trong nhà, quả bóng rơi trúng làm đổ nước trên bàn.", icon: "⚽" },
+        { role: "student", text: "Mẹ ơi, con xin lỗi mẹ! Con đá bóng làm đổ nước trên bàn ạ.", icon: "🧒" },
+        { role: "narrator", text: "Mẹ nhắc Nam nên chơi bóng ở nơi rộng rãi, tránh làm ảnh hưởng đến đồ đạc trong nhà.", icon: "👩" },
+        { role: "student", text: "Con sẽ lau khô bàn và sàn nhà ngay ạ.", icon: "🧒" }
+    ]
+} },
+    { id: 37, char: "em, êm, im, um", sub: "em êm im um", word: "tủm tỉm", svgKey: null, icon: "😊", sentence: "Chị em Hà chơi trốn tìm.", intro: "Bài 37. Vần em, êm, im, um.", detail: "Học vần em, êm, im, um.", guide_intro: "Phát âm chuẩn âm cuối.", guide_phoneme: "Em, Êm, Im, Um", examples: [{ word: "tem thư", icon: "✉️" }, { word: "thềm nhà", icon: "🏠" }], situation: {
+    title: "Cùng nhau chia sẻ",
+    background_image: null,
+    dialogs: [
+        { role: "narrator", text: "Trời nắng to, một bạn đội nón chia bớt bóng râm cho bạn đi cùng không có nón.", icon: "☀️" },
+        { role: "student", text: "Cảm ơn bạn đã cho mình đội nón chung nhé!", icon: "🧒" },
+        { role: "narrator", text: "Một hôm trời mưa, có bạn không mang ô, được bạn khác cho đi chung.", icon: "🌧️" },
+        { role: "student", text: "Cảm ơn bạn đã cho mình đi chung ô!", icon: "🧒" }
+    ]
+}
+	},
+    { id: 38, char: "ai, ay, ây", sub: "ai ay ây", word: "chùm vải", svgKey: null, icon: "🍇", sentence: "Hai bạn thi nhảy dây.", intro: "Bài 38. Vần ai, ay, ây.", detail: "Học vần ai, ay, ây.", guide_intro: "Luyện phát âm.", guide_phoneme: "Ai, Ay, Ây", examples: [{ word: "máy cày", icon: "🚜" }, { word: "đám mây", icon: "☁️" }], situation: {
+    title: "Hà xin lỗi",
+    background_image: null,
+    dialogs: [
+        { role: "narrator", text: "Hà đang chạy vội trên sân trường và va phải một bạn khác.", icon: "🏃" },
+        { role: "student", text: "Mình xin lỗi bạn! Mình không để ý nên va phải bạn.", icon: "🧒" },
+        { role: "teacher", text: "Khi lỡ va phải ai, mình nên xin lỗi ngay như Hà vậy đó các con.", icon: "👩‍🏫" }
+    ]
+}
+	},
+    { id: 39, char: "oi, ôi, ơi", sub: "oi ôi ơi", word: "đồ chơi", svgKey: null, icon: "🧸", sentence: "Voi con mời bạn đi xem hội.", intro: "Bài 39. Vần oi, ôi, ơi.", detail: "Học vần oi, ôi, ơi.", guide_intro: "Luyện phát âm.", guide_phoneme: "Oi, Ôi, Ơi", examples: [{ word: "chim bói cá", icon: "🐦" }, { word: "thổi còi", icon: "📢" }], situation: {
+    title: "Xe của mẹ và xe của Hà",
+    background_image: null,
+    dialogs: [
+        { role: "teacher", text: "Mẹ có một chiếc xe máy, Hà có một chiếc xe đạp. Con thử nghĩ xem 2 chiếc xe này giống và khác nhau ở điểm nào nhé.", icon: "👩‍🏫" },
+        { role: "student", text: "Giống nhau: cả hai đều là xe có 2 bánh, đều có yên xe, bánh xe đều làm bằng cao su ạ.", icon: "🧒" },
+        { role: "student", text: "Khác nhau: xe máy đi nhanh hơn, to hơn, dài hơn và nặng hơn xe đạp ạ.", icon: "🧒" },
+        { role: "teacher", text: "Con quan sát giỏi lắm! Con còn biết phương tiện giao thông nào khác không?", icon: "👩‍🏫" }
+    ]
+}
+	},
     { id: 40, char: "Ôn tập", sub: "Ôn tập", word: "bơi lội", svgKey: null, icon: "🏊", sentence: "Trái đất của chúng ta vô cùng rộng lớn.", intro: "Bài 40. Ôn tập.", detail: "Ôn tập vần.", guide_intro: "Ôn lại vần.", guide_phoneme: "Tổng hợp", examples: [{ word: "bơi lội", icon: "🏊" }, { word: "bãi bồi", icon: "🏖️" }], situation: null },
     { id: 41, char: "ui, ưi", sub: "ui ưi", word: "gửi thư", svgKey: null, icon: "💌", sentence: "Bà gửi cho Hà túi kẹo.", intro: "Bài 41. Vần ui, ưi.", detail: "Học vần ui, ưi.", guide_intro: "Luyện đọc.", guide_phoneme: "Ui, Ưi", examples: [{ word: "bụi cỏ", icon: "🌿" }, { word: "dãy núi", icon: "⛰️" }], situation: null },
     { id: 42, char: "ao, eo", sub: "ao eo", word: "ngôi sao", svgKey: null, icon: "⭐", sentence: "Ao thu lạnh lẽo nước trong veo.", intro: "Bài 42. Vần ao, eo.", detail: "Học vần ao, eo.", guide_intro: "Luyện đọc.", guide_phoneme: "Ao, Eo", examples: [{ word: "quả táo", icon: "🍎" }, { word: "cái kẹo", icon: "🍬" }], situation: null },
