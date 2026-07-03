@@ -127,5 +127,27 @@ const lessonsTap2 = [
 
             { type: "narrate", role: "teacher", text: "Con học rất giỏi! Hết bài 2 rồi, mình cùng nghỉ một chút nhé." }
         ]
-    }
+    },
+        {
+        id: 103,
+        volume: 2,
+        type: "reading",
+        chapter: 1,
+        chapterName: "Tôi và các bạn",
+        lessonInChapter: 3,
+        title: "Bài đọc: Bạn của gió",
+        author: "Sách giáo khoa Kết Nối",
+        icon: "🍃",
+
+        steps: [
+            { type: "narrate", role: "teacher", text: "Chào con, chúng mình cùng bước sang Bài 3 nhé. Bài đọc có tên là: Bạn của gió." },
+            { type: "narrate", role: "narrator", text: "Gió đi khắp nơi, thổi qua đồng cỏ, luồn qua kẽ lá. Gió hỏi hoa: Bạn có muốn đi cùng mình không? Hoa lắc đầu vì còn phải ở lại làm đẹp cho đời." },
+            { type: "narrate", role: "narrator", text: "Gió lại hỏi mây, hỏi chim. Ai cũng có công việc riêng. Cuối cùng, Gió nhận ra mình là bạn của tất cả mọi người, vì Gió mang đến sự mát lành cho muôn loài." },
+            { type: "vocab", word: "mát lành", meaning: "không khí trong lành, mát mẻ" },
+            { type: "ask_aloud", prompt: "Gió đã hỏi những ai đi cùng mình?", reveal: "Gió đã hỏi hoa, mây và chim." },
+            { type: "ask_aloud", prompt: "Vì sao Gió lại là bạn của tất cả mọi người?", reveal: "Vì Gió mang đến sự mát lành cho muôn loài." },
+            { type: "dictation", text: "Gió đi khắp nơi mang sự mát lành.", note: "Con hãy nghe và viết lại nhé." },
+            { type: "narrate", role: "teacher", text: "Con đã học xong Bài 3 rồi! Con có thấy Gió cũng giống như một người bạn tốt không?" }
+        ]
+        },
 ];
