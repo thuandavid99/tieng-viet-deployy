@@ -970,4 +970,4 @@ situation: { title: "Trăng khuyết và con thuyền", background_image: null, 
     { role: "teacher", text: "Con quan sát và cảm nhận cảnh vật rất tốt!", icon: "👩‍🏫" }
 ]} },
     { id: 80, char: "Ôn tập", sub: "Ôn tập và kể chuyện", word: "ôn bài", svgKey: null, icon: "📖", sentence: "Chúng mình cùng ôn lại các vần đã học nhé.", intro: "Bài 80. Ôn tập và Kể chuyện.", detail: "Ôn tập cuối Tập 1 và nghe kể chuyện.", guide_intro: "Cùng ôn lại các vần đã học nào.", guide_phoneme: "Ôn tập tổng hợp", examples: [{ word: "ôn bài", icon: "📖" }, { word: "kể chuyện", icon: "🗣️" }], situation: null },
-				
+	];			
