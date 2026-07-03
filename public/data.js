@@ -71,7 +71,7 @@ const lessons = [
 				},
 				{ 
 					id: 4, char: "E", sub: "E e", word: "bạn bè", svgKey: "friend", icon: "👫", 
-					sentence: "Em kể mẹ nghe về bạn bè.", 
+					sentence: "Bé kể mẹ nghe về bạn bè.", 
 					intro: "Bài 4. Chữ E.", 
 					detail: "E trong từ Bạn Bè.", 
 					guide_intro: "Miệng mở vừa phải, môi căng nhẹ.", 
@@ -275,7 +275,7 @@ const lessons = [
 				// BÀI 13: U u, Ư ư
 				{
 					id: 13, char: "U, Ư", sub: "U u, Ư ư", word: "dừa", svgKey: null, icon: "🥥",
-					sentence: "Đu dừa chín ngọt lừ.",
+					sentence: "Đu đủ chín ngọt lừ.",
 					intro: "Bài 13. Chữ U và chữ Ư.",
 					detail: "U trong từ Dừa, Ư trong từ Lừ.",
 					guide_intro: "Môi chu tròn cho chữ U. Môi chu nhỏ hơn cho chữ Ư.",
@@ -321,7 +321,7 @@ const lessons = [
 				// BÀI 15: ÔN TẬP I, Ê, U, Ư, K, H, L, CH, KH
 				{
 					id: 15, char: "Ôn tập", sub: "Ôn tập", word: "cá kho", svgKey: null, icon: "🐟",
-					sentence: "Chi cho bé cá cờ. Di Kha cho Hà đi chợ.",
+					sentence: "Chi cho bé cá cờ. Dì Kha cho Hà đi chợ.",
 					intro: "Bài 15. Ôn tập và Kể chuyện.",
 					detail: "Ôn tập các chữ I, Ê, U, Ư, K, H, L, CH, KH đã học.",
 					guide_intro: "Cùng ôn lại các chữ cái nhé.",
@@ -421,7 +421,7 @@ const lessons = [
 		// BÀI 19: Ng ng, Ngh ngh
 		{
 			id: 19, char: "NG, NGH", sub: "Ng ng, Ngh ngh", word: "nghê", svgKey: null, icon: "🐃",
-			sentence: "Nghê theo mẹ ra ngõ.",
+			sentence: "Nghé theo mẹ ra ngõ.",
 			intro: "Bài 19. Chữ NG và chữ NGH.",
 			detail: "NG trong từ Ngõ, NGH trong từ Nghê.",
 			guide_intro: "Họng rung cho chữ NG và NGH.",
@@ -568,7 +568,7 @@ const lessons = [
 		// BÀI 25: ÔN TẬP R, S, T, TR, TH, IA, UA, UA
 		{
 			id: 25, char: "Ôn tập", sub: "Ôn tập", word: "mùa hè", svgKey: null, icon: "☀️",
-			sentence: "Mùa hè, nhà bà có dưa, có dưa lê. Mùa thu, nhà bà có na, có thị.",
+			sentence: "Mùa hè, nhà bà có dừa, có dưa lê. Mùa thu, nhà bà có na, có thị.",
 			intro: "Bài 25. Ôn tập và Kể chuyện.",
 			detail: "Ôn tập các chữ R, S, T, TR, TH, IA, UA, UA đã học.",
 			guide_intro: "Cùng ôn lại các chữ cái nhé.",
@@ -599,7 +599,7 @@ const lessons = [
 				// [NHÁP - anh thay từ/câu/hội thoại thật từ SGK khi dạy học sinh]
 				{
 					id: 26, char: "Ph Qu", sub: "Ph ph, Qu qu", word: "phở bò", svgKey: null, icon: "🍜",
-					sentence: "Bé đọc và ghép được vần Ph Qu.",
+					sentence: "Cả nhà từ phố về thăm quê.",
 					intro: "Bài 26. Vần Ph Qu.",
 					detail: "Học các vần Ph Qu qua từ khoá \"phở bò\".",
 					guide_intro: "Các em phát âm rõ từng vần Ph Qu nhé.",
@@ -828,7 +828,7 @@ situation: { title: "Thời tiết nóng lạnh", background_image: null, dialog
     { role: "student", text: "Con mặc áo ấm dày. Còn khi trời nóng, con mặc áo mỏng, ngắn tay ạ.", icon: "🧒" },
     { role: "teacher", text: "Đúng rồi, mình cần ăn mặc phù hợp với thời tiết đó con.", icon: "👩‍🏫" }
 ]}},
-    { id: 52, char: "ut, ưt", sub: "ut ưt", word: "bút chì", svgKey: null, icon: "✏️", sentence: "Cầu thủ số 7 thu hút khán giả.", intro: "Bài 52. Vần ut, ưt.", detail: "Học vần ut, ưt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ut, Ưt", examples: [{ word: "mứt dừa", icon: "🥥" }, { word: "nứt nẻ", icon: "🌵" }], // BÀI 52 (ut ưt) — SGV: môn thể thao bóng đá
+    { id: 52, char: "ut, ưt", sub: "ut ưt", word: "bút chì", svgKey: null, icon: "✏️", sentence: "Cầu thủ số 7 thu hút khán giả bằng một cú sút dứt điểm.", intro: "Bài 52. Vần ut, ưt.", detail: "Học vần ut, ưt.", guide_intro: "Luyện đọc.", guide_phoneme: "Ut, Ưt", examples: [{ word: "mứt dừa", icon: "🥥" }, { word: "nứt nẻ", icon: "🌵" }], // BÀI 52 (ut ưt) — SGV: môn thể thao bóng đá
 situation: { title: "Môn bóng đá", background_image: null, dialogs: [
     { role: "teacher", text: "Con có biết môn thể thao nào có hai đội, đá bóng vào lưới nhau không?", icon: "👩‍🏫" },
     { role: "student", text: "Dạ, đó là môn bóng đá ạ! Con rất thích xem bóng đá!", icon: "🧒" },
@@ -875,18 +875,18 @@ situation: { title: "Mặt trăng và mặt trời", background_image: null, dia
     { role: "student", text: "Mặt trời xuất hiện ban ngày, mặt trăng xuất hiện ban đêm ạ.", icon: "🧒" },
     { role: "teacher", text: "Con nói đúng rồi đó!", icon: "👩‍🏫" }
 ]} },
-    { id: 62, char: "iêc, iên, iêp", sub: "iêc iên iêp", word: "biển", svgKey: null, icon: "🌊", sentence: "Biển xanh biếc.", intro: "Bài 62. Vần iêc, iên, iêp.", detail: "Học vần iêc, iên, iêp.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêc, Iên, Iêp", examples: [{ word: "xanh biếc", icon: "🌊" }, { word: "sò điệp", icon: "🐚" }], situation: { title: "Chợ và siêu thị", background_image: null, dialogs: [
+    { id: 62, char: "iêc, iên, iêp", sub: "iêc iên iêp", word: "biển", svgKey: null, icon: "🌊", sentence: "Biển xanh biếc. Những hòn đảo lớn nhỏ trùng điệp", intro: "Bài 62. Vần iêc, iên, iêp.", detail: "Học vần iêc, iên, iêp.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêc, Iên, Iêp", examples: [{ word: "xanh biếc", icon: "🌊" }, { word: "sò điệp", icon: "🐚" }], situation: { title: "Chợ và siêu thị", background_image: null, dialogs: [
     { role: "teacher", text: "Con đã từng đi chợ hay đi siêu thị chưa? Chúng khác nhau thế nào?", icon: "👩‍🏫" },
     { role: "student", text: "Ở chợ, người bán tự tính tiền. Ở siêu thị, mình tự chọn đồ rồi có nhân viên thu tiền ạ.", icon: "🧒" },
     { role: "teacher", text: "Con quan sát và nhớ rất tốt!", icon: "👩‍🏫" }
 ]} },
-    { id: 63, char: "iêng, iêm, yên", sub: "iêng iêm yên", word: "cá kiếm", svgKey: null, icon: "🐟", sentence: "Yến phụng có bộ lông tím biêng biếc.", intro: "Bài 63. Vần iêng, iêm, yên.", detail: "Học vần iêng, iêm, yên.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêng, Iêm, Yên", examples: [{ word: "sầu riêng", icon: "🍈" }, { word: "tổ yến", icon: "🏠" }], // BÀI 63 (iêng iêm yên) — SGV: các loài chim
+    { id: 63, char: "iêng, iêm, yên", sub: "iêng iêm yên", word: "cá kiếm", svgKey: null, icon: "🐟", sentence: "Yến phụng có bộ lông tím biêng biếc trông rất diêm dúa.", intro: "Bài 63. Vần iêng, iêm, yên.", detail: "Học vần iêng, iêm, yên.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêng, Iêm, Yên", examples: [{ word: "sầu riêng", icon: "🍈" }, { word: "tổ yến", icon: "🏠" }], // BÀI 63 (iêng iêm yên) — SGV: các loài chim
 situation: { title: "Những loài chim", background_image: null, dialogs: [
     { role: "teacher", text: "Con có biết loài chim nào báo hiệu mùa xuân đến không?", icon: "👩‍🏫" },
     { role: "student", text: "Dạ, đó là chim én ạ! Vẹt biết bắt chước tiếng người, họa mi hót rất hay.", icon: "🧒" },
     { role: "teacher", text: "Con biết nhiều về các loài chim quá!", icon: "👩‍🏫" }
 ]} },
-    { id: 64, char: "iêt, iêu, yêu", sub: "iêt iêu yêu", word: "cánh diều", svgKey: null, icon: "🪁", sentence: "Em yêu sách.", intro: "Bài 64. Vần iêt, iêu, yêu.", detail: "Học vần iêt, iêu, yêu.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêt, Iêu, Yêu", examples: [{ word: "nhiệt kế", icon: "🌡️" }, { word: "yêu chiều", icon: "❤️" }], // BÀI 64 (iêt iêu yêu) — SGV: sự vật tự nhiên và do con người tạo ra
+    { id: 64, char: "iêt, iêu, yêu", sub: "iêt iêu yêu", word: "cánh diều", svgKey: null, icon: "🪁", sentence: "Em yêu sách, nhờ có sách em học được nhiều điều hay.", intro: "Bài 64. Vần iêt, iêu, yêu.", detail: "Học vần iêt, iêu, yêu.", guide_intro: "Luyện đọc.", guide_phoneme: "Iêt, Iêu, Yêu", examples: [{ word: "nhiệt kế", icon: "🌡️" }, { word: "yêu chiều", icon: "❤️" }], // BÀI 64 (iêt iêu yêu) — SGV: sự vật tự nhiên và do con người tạo ra
 situation: { title: "Tự nhiên và con người tạo ra", background_image: null, dialogs: [
     { role: "teacher", text: "Mặt trăng, mặt trời là sự vật tự nhiên. Vậy máy bay là do ai tạo ra?", icon: "👩‍🏫" },
     { role: "student", text: "Dạ, máy bay do con người tạo ra ạ. Còn chim thì có sẵn trong tự nhiên.", icon: "🧒" },
